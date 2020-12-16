@@ -26,11 +26,20 @@ new file.
 6. Closes the socket and terminates.
 
 ## Usage
-1. Compile the file using any C compiler in unix. $ gcc -o sender sender.c
+1. Compile the file using any C compiler in unix. 
+
+```$ gcc -o sender sender.c```
+
 ```$ gcc -o receiver receiver.c```
+
 2. Run the executables in your respective sender and receiver machine.
+
 ```$ ./sender port```
+
 port - port number (safe to use port numbers greater than 2000).
+
 ```$ ./receiver hostname port```
+
 hostname - the name or ip address of the sender/server.
+
 port - port number (same port number used while executing sender).
